@@ -61,21 +61,53 @@
           </script>
         </material>
       </visual>
-
-      <visual name="bouy">
-        <pose> -30 -25 -50 0 0 0</pose>
+      <!--  -->
+      <!--  -->
+      <visual name="orange">
+        <pose> -30 -23 -48 0 0 0</pose>
         <geometry>
-          <mesh><uri>model://ocean/buoy_N.dae</uri><scale>1 1 1</scale></mesh>
+          <mesh><uri>model://buoy_map/orange.dae</uri><scale>1 1 1</scale></mesh>
         </geometry>
       </visual>
 
-      <collision name="bouy">
-        <pose> -30 -25 -50 0 0 0</pose>
+      <collision name="orange">
+        <pose> -30 -23 -48 0 0 0</pose>
         <geometry>
-          <mesh><uri>model://ocean/buoy_N.dae</uri><scale>1 1 1</scale></mesh>
+          <mesh><uri>model://buoy_map/orange.dae</uri><scale>1 1 1</scale></mesh>
         </geometry>
       </collision>
 
+      <!--  -->
+      <visual name="green">
+        <pose> -30 -30 -42 0 0 0</pose>
+        <geometry>
+          <mesh><uri>model://buoy_map/green.dae</uri><scale>1 1 1</scale></mesh>
+        </geometry>
+      </visual>
+
+      <collision name="green">
+        <pose> -30 -30 -42 0 0 0</pose>
+        <geometry>
+          <mesh><uri>model://buoy_map/green.dae</uri><scale>1 1 1</scale></mesh>
+        </geometry>
+      </collision>
+
+      <!--  -->
+      <visual name="yellow">
+        <pose> -30 -38 -45 0 0 0</pose>
+        <geometry>
+          <mesh><uri>model://buoy_map/yellow.dae</uri><scale>1 1 1</scale></mesh>
+        </geometry>
+      </visual>
+
+      <collision name="yellow">
+        <pose> -30 -38 -45 0 0 0</pose>
+        <geometry>
+          <mesh><uri>model://buoy_map/yellow.dae</uri><scale>1 1 1</scale></mesh>
+        </geometry>
+      </collision>
+      <!--  -->
+      <!--  -->
       <visual name="bottom">
         <pose>0 0 -70.0 0 0 0</pose>
         <geometry>
