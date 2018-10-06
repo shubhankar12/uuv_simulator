@@ -70,75 +70,88 @@
       <!--  -->
       <!--  -->
       <visual name="dice1">
-        <pose> -31 -34 -49 0 0 -0.4235</pose>
+        <pose> -31 -35 -42 0 0 -0.4235</pose>
         <geometry>
           <mesh><uri>model://dice/dice1.dae</uri><scale>1 1 1</scale></mesh>
         </geometry>
       </visual>
 
       <collision name="dice1">
-        <pose> -31 -34 -49 0 0 -0.4235</pose>
+        <pose> -31 -35 -42 0 0 -0.4235</pose>
         <geometry>
           <mesh><uri>model://dice/dice1.dae</uri><scale>1 1 1</scale></mesh>
         </geometry>
       </collision>
 
       <visual name="dice2">
-        <pose> -30 -38 -47 0 0 0</pose>
+        <pose> -29 -30 -49 0 0 0</pose>
         <geometry>
           <mesh><uri>model://dice/dice2.dae</uri><scale>1 1 1</scale></mesh>
         </geometry>
       </visual>
 
       <collision name="dice2">
-        <pose> -30 -38 -47 0 0 0</pose>
+        <pose> -29 -30 -49 0 0 0</pose>
         <geometry>
           <mesh><uri>model://dice/dice2.dae</uri><scale>1 1 1</scale></mesh>
         </geometry>
       </collision>
 
       <visual name="dice5">
-        <pose> -35 -34 -48 0 0 -0.6853</pose>
+        <pose> -29 -36 -46 0 0 -0.6853</pose>
         <geometry>
           <mesh><uri>model://dice/dice5.dae</uri><scale>1 1 1</scale></mesh>
         </geometry>
       </visual>
 
       <collision name="dice5">
-        <pose> -35 -34 -48 0 0 -0.6853</pose>
+        <pose> -29 -30 -46 0 0 -0.6853</pose>
         <geometry>
           <mesh><uri>model://dice/dice5.dae</uri><scale>1 1 1</scale></mesh>
         </geometry>
       </collision>
 
       <visual name="dice6">
-        <pose> -36 -39 -43 0 0  0.5235</pose>
+        <pose> -31 -31 -44 0 0  0.5235</pose>
         <geometry>
           <mesh><uri>model://dice/dice6.dae</uri><scale>1 1 1</scale></mesh>
         </geometry>
       </visual>
 
       <collision name="dice6">
-        <pose> -36 -39 -43 0 0  0.5235</pose>
+        <pose> -31 -31 -44 0 0  0.5235</pose>
         <geometry>
           <mesh><uri>model://dice/dice6.dae</uri><scale>1 1 1</scale></mesh>
         </geometry>
       </collision>
 
-
-      <visual name="gate">
-        <pose> -15 -44 -40 0 0 1.57</pose>
+      <visual name="gold_chip">
+        <pose> -41 -38 -50 0 0 -1.57</pose>
         <geometry>
-          <mesh><uri>model://gate/gate.dae</uri><scale>3 3 3</scale></mesh>
+          <mesh><uri>model://robosub_2018/buy_gold_chip.dae</uri><scale>1 1 1</scale></mesh>
         </geometry>
       </visual>
 
-      <collision name="gate">
-        <pose> -15 -44 -40 0 0 1.57</pose>
+      <collision name="gold_chip">
+        <pose> -41 -38 -50 0 0 -1.57</pose>
         <geometry>
-          <mesh><uri>model://gate/gate.dae</uri><scale>3 3 3</scale></mesh>
+          <mesh><uri>model://robosub_2018/buy_gold_chip.dae</uri><scale>1 1 1</scale></mesh>
         </geometry>
       </collision>
+
+      <!-- <visual name="gold_chip">
+        <pose> --41 -38 -50 0 0 0</pose>
+        <geometry>
+          <mesh><uri>model://robosub_2018/buy_gold_chip.dae</uri><scale>1 1 1</scale></mesh>
+        </geometry>
+      </visual>
+
+      <collision name="gold_chip">
+        <pose> -41 -38 -50 0 0 0</pose>
+        <geometry>
+          <mesh><uri>model://robosub_2018/buy_gold_chip.dae</uri><scale>1 1 1</scale></mesh>
+        </geometry>
+      </collision> -->
 
       <!--  -->
       <!--  -->
